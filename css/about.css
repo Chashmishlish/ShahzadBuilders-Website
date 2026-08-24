@@ -1,0 +1,452 @@
+/* =========================================
+   ABOUT PAGE
+========================================= */
+
+.about-hero {
+    text-align: center;
+}
+
+.about-hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* =========================================
+   COMPANY INTRODUCTION
+========================================= */
+
+.company-intro-section {
+    padding: 100px 20px;
+    background: var(--white);
+}
+
+.company-intro-content {
+    max-width: 950px;
+    margin: 45px auto 0;
+}
+
+.company-intro-content p {
+    color: var(--text-light);
+    font-size: 0.98rem;
+    line-height: 1.9;
+    margin-bottom: 22px;
+}
+
+.company-intro-content strong {
+    color: var(--navy);
+    font-weight: 700;
+}
+
+
+/* OUR PROMISE */
+
+.our-promise {
+    margin: 55px auto 0;
+    padding: 40px 30px;
+    max-width: 850px;
+    text-align: center;
+    background: var(--light-bg);
+    border-top: 3px solid var(--gold);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.our-promise .section-subtitle {
+    color: var(--gold);
+}
+
+.our-promise h3 {
+    margin: 12px 0 0;
+    color: var(--navy);
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.our-promise h3 span {
+    color: var(--gold);
+}
+
+
+/* =========================================
+   CEO AIM
+========================================= */
+
+.ceo-aim-section {
+    padding: 100px 20px;
+    background: var(--light-bg);
+}
+
+.ceo-aim-box {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.ceo-aim-box h2 {
+    margin: 15px 0 40px;
+    color: var(--navy);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.ceo-aim-box h2 span {
+    color: var(--gold);
+}
+
+.ceo-aim-content p {
+    color: var(--text-light);
+    line-height: 1.9;
+    font-size: 0.98rem;
+    margin-bottom: 22px;
+}
+
+
+/* =========================================
+   LEADERSHIP
+========================================= */
+
+.leadership-section {
+    padding: 100px 20px;
+    background: var(--white);
+}
+
+.section-heading {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    margin: 15px 0;
+    color: var(--navy);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.section-heading h2 span {
+    color: var(--gold);
+}
+
+.section-heading p {
+    color: var(--text-light);
+    line-height: 1.8;
+}
+
+
+/* FIVE LEADERS IN ONE ROW */
+
+.leaders-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 28px;
+    margin-top: 55px;
+}
+
+
+/* Leader Card */
+
+.leader-profile-card {
+    flex: 1;
+    max-width: 220px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.35s ease;
+}
+
+.leader-profile-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* Circular Image */
+
+.leader-circle {
+    width: 190px;
+    height: 190px;
+    margin: 0 auto 22px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--gold);
+    padding: 5px;
+    background: var(--white);
+    box-shadow: 0 10px 30px rgba(2, 13, 44, 0.12);
+    transition: all 0.35s ease;
+}
+
+.leader-circle img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+.leader-profile-card:hover .leader-circle {
+    border-color: var(--navy);
+    box-shadow: 0 15px 35px rgba(2, 13, 44, 0.20);
+}
+
+.leader-profile-card:hover .leader-circle img {
+    transform: scale(1.06);
+}
+
+
+/* Role */
+
+.leader-role {
+    display: block;
+    color: var(--gold);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin-bottom: 8px;
+}
+
+
+/* Name */
+
+.leader-profile-card h3 {
+    color: var(--navy);
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0 0 6px;
+}
+
+.leader-profile-card p {
+    color: var(--text-light);
+    font-size: 0.78rem;
+    line-height: 1.5;
+    margin: 0 0 12px;
+}
+
+
+/* View Profile */
+
+.leader-view {
+    color: var(--navy);
+    font-size: 0.78rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.leader-profile-card:hover .leader-view {
+    color: var(--gold);
+}
+
+
+/* =========================================
+   STRENGTHS
+========================================= */
+
+.strengths-section {
+    padding: 100px 20px;
+    background: var(--light-bg);
+}
+
+.strengths-section h2 {
+    color: var(--navy);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.strengths-section h2 span {
+    color: var(--gold);
+}
+
+.strength-intro {
+    color: var(--text-light);
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.strength-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.strength-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(2, 13, 44, 0.10);
+}
+
+.strength-number {
+    flex-shrink: 0;
+    color: var(--gold);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.strength-item h4 {
+    color: var(--navy);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.strength-item p {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* Strength Image */
+
+.strength-image {
+    height: 520px;
+    overflow: hidden;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    box-shadow: 0 15px 40px rgba(2, 13, 44, 0.10);
+}
+
+.strength-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.about-cta {
+    padding: 90px 20px;
+    background: var(--navy);
+    color: var(--white);
+}
+
+.about-cta h2 {
+    margin: 15px 0;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.about-cta p {
+    color: rgba(255, 255, 255, 0.72);
+    margin-bottom: 28px;
+}
+
+.about-cta .section-subtitle {
+    color: var(--gold);
+}
+
+.about-cta-btn {
+    display: inline-block;
+    color: var(--black);
+    background: var(--gold-gradient);
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.about-cta-btn:hover {
+    color: var(--black);
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 1100px) {
+
+    .leaders-row {
+        flex-wrap: wrap;
+        gap: 40px 25px;
+    }
+
+    .leader-profile-card {
+        flex: 0 0 calc(33.333% - 25px);
+        max-width: none;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .company-intro-section,
+    .ceo-aim-section,
+    .leadership-section,
+    .strengths-section {
+        padding: 70px 20px;
+    }
+
+    .company-intro-content {
+        margin-top: 35px;
+    }
+
+    .our-promise {
+        padding: 30px 20px;
+    }
+
+    .our-promise h3 {
+        font-size: 1.4rem;
+    }
+
+    .ceo-aim-box h2,
+    .strengths-section h2,
+    .section-heading h2 {
+        font-size: 2.2rem;
+    }
+
+
+    /* 2 cards per row */
+
+    .leaders-row {
+        gap: 40px 15px;
+    }
+
+    .leader-profile-card {
+        flex: 0 0 calc(50% - 15px);
+    }
+
+    .leader-circle {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .strength-image {
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    .about-cta {
+        padding: 70px 20px;
+    }
+
+    .about-cta h2 {
+        font-size: 2.2rem;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .leader-profile-card {
+        flex: 0 0 100%;
+    }
+
+    .leader-circle {
+        width: 170px;
+        height: 170px;
+    }
+
+}

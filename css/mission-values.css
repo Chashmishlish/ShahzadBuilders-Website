@@ -1,0 +1,402 @@
+.mission-hero {
+    padding: 140px 20px 90px;
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+}
+
+.mission-hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 15px 0;
+    line-height: 1.2;
+}
+
+.mission-hero h1 span {
+    color: var(--gold);
+}
+
+.mission-hero p {
+    max-width: 650px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.ceo-vision {
+    padding: 100px 0;
+    background: var(--light-bg);
+}
+
+.vision-heading h2 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-top: 15px;
+}
+
+.vision-heading h2 span {
+    color: var(--gold);
+}
+
+.vision-card {
+    height: 100%;
+    padding: 35px;
+    background: white;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    transition: all 0.3s ease;
+}
+
+.vision-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.vision-number {
+    display: block;
+    color: goldenrod;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.vision-card h3 {
+    color: var(--navy);
+    font-size: 1.35rem;
+    margin-bottom: 15px;
+}
+
+.vision-card p {
+    color: #666;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.vision-card-featured {
+    background: var(--white);
+}
+
+.vision-card-featured h3 {
+    color: black;
+}
+
+.vision-card-featured p {
+    color: #666;
+}
+
+@media (max-width: 768px) {
+
+    .mission-hero {
+        padding: 120px 20px 80px;
+    }
+
+    .mission-hero h1 {
+        font-size: 2.4rem;
+    }
+
+    .ceo-vision {
+        padding: 70px 20px;
+    }
+
+    .vision-heading h2 {
+        font-size: 2rem;
+    }
+
+    .vision-card {
+        padding: 28px;
+    }
+
+}
+
+.our-mission {
+    padding: 100px 0;
+    background: white;
+}
+
+.our-mission h2 {
+    color: var(--navy);
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.our-mission h2 span {
+    color: var(--gold);
+}
+
+.mission-text {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .our-mission {
+        padding: 70px 20px;
+    }
+
+    .our-mission h2 {
+        font-size: 2rem;
+    }
+
+}
+
+.core-values {
+    padding: 100px 0;
+    background: var(--light-bg);
+}
+
+.core-values-heading h2 {
+    color: var(--navy);
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.core-values-heading h2 span {
+    color: var(--gold);
+}
+
+.core-values-heading p {
+    color: #666;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.core-value-card {
+    height: 100%;
+    padding: 35px;
+    background: white;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    transition: all 0.3s ease;
+}
+
+.core-value-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.value-number {
+    color: goldenrod;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.core-value-card h3 {
+    color: var(--navy);
+    font-size: 1.4rem;
+    margin: 18px 0 14px;
+}
+
+.core-value-card p {
+    color: #666;
+    line-height: 1.8;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+
+    .core-values {
+        padding: 70px 20px;
+    }
+
+    .core-values-heading h2 {
+        font-size: 2rem;
+    }
+
+    .core-value-card {
+        padding: 28px;
+    }
+}
+
+.our-strengths {
+    padding: 100px 0;
+    background: white;
+}
+
+.strengths-heading h2 {
+    color: var(--navy);
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.strengths-heading h2 span {
+    color: var(--gold);
+}
+
+.strengths-heading p {
+    color: #666;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.strength-card {
+    height: 100%;
+    padding: 35px;
+    background: var(--light-bg);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    transition: all 0.3s ease;
+}
+
+.strength-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.strength-number {
+    color: var(--gold);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.strength-card h3 {
+    color: var(--navy);
+    font-size: 1.35rem;
+    margin: 18px 0 14px;
+}
+
+.strength-card p {
+    color: #666;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.strength-card-dark {
+    background: #f7f6f2;
+}
+
+.strength-card-dark h3 {
+    color: black;
+}
+
+.strength-card-dark p {
+    color: #666;
+}
+
+@media (max-width: 768px) {
+
+    .our-strengths {
+        padding: 70px 20px;
+    }
+
+    .strengths-heading h2 {
+        font-size: 2rem;
+    }
+
+    .strength-card {
+        padding: 28px;
+    }
+}
+
+.our-commitments {
+    padding: 100px 0;
+    background: var(--light-bg);
+}
+
+.commitments-heading h2 {
+    color: var(--navy);
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.commitments-heading h2 span {
+    color: var(--gold);
+}
+
+.commitments-heading p {
+    color: #666;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.commitment-card {
+    height: 100%;
+    padding: 35px;
+    background: white;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    transition: all 0.3s ease;
+}
+
+.commitment-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.commitment-number {
+    color: var(--gold);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.commitment-card h3 {
+    color: var(--navy);
+    font-size: 1.35rem;
+    margin: 18px 0 14px;
+}
+
+.commitment-card p {
+    color: #666;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.mission-closing {
+    padding: 100px 0;
+    background: var(--navy);
+    /* background: var(--gold-gradient); */
+    color: white;
+}
+
+.mission-closing h2 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.mission-closing h2 span {
+    color: var(--gold);
+}
+
+.mission-closing p {
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .our-commitments {
+        padding: 70px 20px;
+    }
+
+    .commitments-heading h2,
+    .mission-closing h2 {
+        font-size: 2rem;
+    }
+
+    .commitment-card {
+        padding: 28px;
+    }
+
+    .mission-closing {
+        padding: 70px 20px;
+    }
+
+}

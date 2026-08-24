@@ -1,0 +1,250 @@
+/* =========================================
+   AFFILIATED BANKS PAGE
+========================================= */
+
+
+/* ================================
+   HERO
+================================ */
+
+.banks-hero {
+    position: relative;
+    min-height: 470px;
+    padding: 140px 20px 100px;
+    background-image: url("../images/Blue6.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banks-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(2, 13, 44, 0.75);
+}
+
+.banks-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.banks-hero-content {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banks-hero h1 {
+    color: var(--white);
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 15px 0;
+}
+
+.banks-hero h1 span {
+    color: var(--gold);
+}
+
+.banks-hero p {
+    max-width: 650px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+
+
+/* ================================
+   BANKS SECTION
+================================ */
+
+.banks-section {
+    padding: 100px 20px;
+    background: var(--light-bg);
+}
+
+.banks-section .section-heading {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.banks-section .section-heading h2 {
+    color: var(--navy);
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.banks-section .section-heading h2 span {
+    color: var(--gold);
+}
+
+.banks-section .section-heading p {
+    color: var(--text-light);
+    line-height: 1.8;
+}
+
+
+
+/* ================================
+   BANK CARD
+================================ */
+
+.bank-card {
+    height: 100%;
+    background: var(--white);
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    transition: all 0.35s ease;
+    overflow: hidden;
+}
+
+.bank-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--gold);
+    box-shadow: 0 20px 45px rgba(2, 13, 44, 0.14);
+}
+
+
+
+/* ================================
+   BANK IMAGE
+================================ */
+
+.bank-image {
+    height: 190px;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.bank-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.35s ease;
+}
+
+.bank-card:hover .bank-image img {
+    transform: scale(1.05);
+}
+
+
+
+/* ================================
+   BANK CONTENT
+================================ */
+
+.bank-content {
+    padding: 25px;
+}
+
+.bank-number {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: var(--gold);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.bank-content h3 {
+    color: var(--navy);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.bank-content p {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+
+/* ================================
+   TRUST SECTION
+================================ */
+
+.banks-trust {
+    padding: 90px 20px;
+    background: var(--navy);
+}
+
+.banks-trust .container {
+    max-width: 800px;
+}
+
+.banks-trust h2 {
+    color: var(--white);
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin: 15px 0 20px;
+}
+
+.banks-trust h2 span {
+    color: var(--gold);
+}
+
+.banks-trust p {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.9;
+    margin: 0 auto;
+}
+
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 768px) {
+
+    .banks-hero {
+        min-height: 420px;
+        padding: 110px 20px 75px;
+    }
+
+    .banks-hero h1 {
+        font-size: 2.4rem;
+    }
+
+    .banks-hero p {
+        font-size: 0.95rem;
+    }
+
+    .banks-section {
+        padding: 70px 20px;
+    }
+
+    .banks-section .section-heading h2 {
+        font-size: 2.1rem;
+    }
+
+    .bank-image {
+        height: 180px;
+    }
+
+    .bank-content {
+        padding: 22px;
+    }
+
+    .banks-trust {
+        padding: 70px 20px;
+    }
+
+    .banks-trust h2 {
+        font-size: 2.2rem;
+    }
+
+}
